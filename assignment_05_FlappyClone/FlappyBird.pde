@@ -7,6 +7,7 @@ class FlappyBird extends Game {
     pipeSpeed;
   int score;
   PImage Background1 = loadImage("Cave_Background.png");
+  PImage TitleText1 = loadImage("TitleText1.png");
   PShape TestOBJ = loadShape("TestOBJ.obj");
   
   Background bkg;
@@ -138,12 +139,13 @@ class FlappyBird extends Game {
     
     //shape(TestOBJ,0,0,100,100);
     //rect(width / 2.0, height / 2.0, width, height / 4.0);
-    rect(0, 0, width, height / 4.0);
+    //rect(0, 0, width, height / 4.0);
     popMatrix();
     textAlign(CENTER, CENTER);
     textSize(24);
     fill(255);
-    text("FLAPPY CLONE", width / 2.0, height / 2.0);
+    image(TitleText1,0,0,width,height);
+    //text("FLAPPY CLONE", width / 2.0, height / 2.0);
     drawAchievements();
     popStyle();
     
@@ -156,6 +158,7 @@ class FlappyBird extends Game {
     textAlign(CENTER, CENTER);
     textSize(24);
     fill(255);
+    image(Background1,0,0,1020,630);
     text("GAME OVER!"
       + "\r\nYOUR SCORE: " + fb.score
       + "\r\nYOUR TIME: " + nfs(fb.elapsed / 1000.0, 0, 1) + " seconds", 

@@ -46,7 +46,7 @@ void drawAchievements() {  // I very much wanted to use a for loop here, but for
     if (dist(mouseX, mouseY, width/2-width/17*6, height-height/10)<width/17/2) {
       image(BatMedal1,width/2-width/17*6, height-height/10, width/14, width/14);
       textSize(28);
-      text("Fat Bat", width/2, height-height/4.5);
+      text("Fat Bat - 1 Pt", width/2, height-height/4.5);
       textSize(18);
       text("You beat the first hurdle. How terribly impressive.", width/2, height-height/5.8);
     } else {
@@ -57,7 +57,7 @@ void drawAchievements() {  // I very much wanted to use a for loop here, but for
     if (dist(mouseX, mouseY, width/2-width/17*4, height-height/10)<width/17/2) {
       image(BatMedal2,width/2-width/17*4, height-height/10, width/14, width/14);
       textSize(28);
-      text("Winged Rat", width/2, height-height/4.5);
+      text("Winged Rat - 10 Pts", width/2, height-height/4.5);
       textSize(18);
       text("You continue to meet the lowest expectations.", width/2, height-height/5.8);
     } else {
@@ -68,7 +68,7 @@ void drawAchievements() {  // I very much wanted to use a for loop here, but for
     if (dist(mouseX, mouseY, width/2-width/17*2, height-height/10)<width/17/2) {
       image(BatMedal3,width/2-width/17*2, height-height/10, width/14, width/14);
       textSize(28);
-      text("Fruit Bat", width/2, height-height/4.5);
+      text("Fruit Bat - 50 Pts", width/2, height-height/4.5);
       textSize(18);
       text("You are truly getting the most out of this rich and varied gameplay experience.", width/2, height-height/5.8);
     } else {
@@ -79,7 +79,7 @@ void drawAchievements() {  // I very much wanted to use a for loop here, but for
     if (dist(mouseX, mouseY, width/2, height-height/10)<width/17/2) {
       image(BatMedal4,width/2, height-height/10, width/14, width/14);
       textSize(28);
-      text("Bat Wonder", width/2, height-height/4.5);
+      text("Bat Wonder - 100 Pts", width/2, height-height/4.5);
       textSize(18);
       text("It is uncertain as to why you continue to play this game.", width/2, height-height/5.8);
     } else {
@@ -90,7 +90,7 @@ void drawAchievements() {  // I very much wanted to use a for loop here, but for
     if (dist(mouseX, mouseY, width/2+width/17*2, height-height/10)<width/17/2) {
       image(BatMedal5,width/2+width/17*2, height-height/10, width/14, width/14);
       textSize(28);
-      text("Just Keep Flying", width/2, height-height/4.5);
+      text("Just Keep Flying - 250 Pts", width/2, height-height/4.5);
       textSize(18);
       text("Your perserverence is a testement to the mindlessness of humanity.", width/2, height-height/5.8);
     } else {
@@ -101,7 +101,7 @@ void drawAchievements() {  // I very much wanted to use a for loop here, but for
     if (dist(mouseX, mouseY, width/2+width/17*4, height-height/10)<width/17/2) {
       image(BatMedal6,width/2+width/17*4, height-height/10, width/14, width/14);
       textSize(28);
-      text("Bat of Legend", width/2, height-height/4.5);
+      text("Bat of Legend - 500 Pts", width/2, height-height/4.5);
       textSize(18);
       text("Clearly you have no life. Why must you insist on playing this game?", width/2, height-height/5.8);
     } else {
@@ -112,7 +112,7 @@ void drawAchievements() {  // I very much wanted to use a for loop here, but for
     if (dist(mouseX, mouseY, width/2+width/17*6, height-height/10)<width/17/2) {
       image(BatMedal7,width/2+width/17*6, height-height/10, width/14, width/14);
       textSize(28);
-      text("Bat Out Of Hell", width/2, height-height/4.5);
+      text("Bat Out Of Hell - 1000 Pts", width/2, height-height/4.5);
       textSize(18);
       text("Just stop.", width/2, height-height/5.8);
     } else {
